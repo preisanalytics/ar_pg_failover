@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.license = "Exclusive for metoda GmbH"
   s.files = Dir["lib/**/*rb"] + ["README.md"]
   s.add_dependency "activerecord", "~> 5.1"
+  s.add_dependency "pg", "~> 0.21"
 end
