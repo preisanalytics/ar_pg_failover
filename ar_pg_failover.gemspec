@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/preisanalytics/ar_pg_failover"
   s.license = "Exclusive for metoda GmbH"
   s.files = Dir["lib/**/*rb"] + ["README.md"]
-  s.add_dependency "activerecord", ">= 4.2, <= 5.1"
+  s.add_dependency "activerecord", ">=4.2 <=5.1"
   s.add_dependency "pg"
 end
