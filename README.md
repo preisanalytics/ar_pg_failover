@@ -6,4 +6,7 @@ which introduces a failover mechanic into AR.
 
 # Usage
 
-Add this gem to your Gemfile and `require 'ar_pg_failover'`
+Add this gem to your Gemfile:
+```
+gem 'ar_pg_failover', git: 'https://github.com/preisanalytics/ar_pg_failover.git'
+```
